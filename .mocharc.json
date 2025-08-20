@@ -1,0 +1,8 @@
+{
+  "loader": "ts-node/esm",
+  "extensions": ["ts"],
+  "recursive": false,
+  "timeout": 5000,
+  "reporter": "spec",
+  "exit": true
+}

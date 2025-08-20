@@ -1,0 +1,31 @@
+{
+  "name": "@osmoz-ui/codewars-katas",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Théo Beaurain",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node --esm src/index.ts",
+    "test": "./test-runner.sh",
+    "clean": "rm -rf dist",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.40.0",
+    "@typescript-eslint/parser": "^8.40.0",
+    "chai": "^5.2.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "mocha": "^11.7.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
